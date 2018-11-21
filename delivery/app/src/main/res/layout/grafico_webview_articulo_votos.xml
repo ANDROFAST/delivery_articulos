@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context=".EstadisticasArticulo">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/myPrimaryColor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="58dp">
+
+            <Button
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:id="@+id/btnDeGraficoAArticulo"
+                android:background="@drawable/ic_atras_02" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Total de Votaciones"
+                android:layout_margin="0dp"
+                android:textSize="20sp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:id="@+id/textView7"
+                android:layout_gravity="center_vertical" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Leche Gloria X510 ml"
+
+                android:layout_marginLeft="10dp"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:textStyle="bold|italic"
+                android:id="@+id/lblTVNombreArticulo"
+                android:layout_gravity="center_vertical" />
+
+            <WebView
+                android:id="@+id/webview"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></WebView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

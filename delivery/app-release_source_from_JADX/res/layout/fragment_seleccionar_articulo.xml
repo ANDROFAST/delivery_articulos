@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="15dp">
+            <Button android:id="@+id/btnIrEmpresas" android:background="@mipmap/ic_atras" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="wrap_content" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textSize="25dp" android:textStyle="bold" android:textColor="#000080" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/tituloArticulos" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:text="Artículos" />
+        </LinearLayout>
+        <ListView android:id="@+id/lvSelArticulo" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

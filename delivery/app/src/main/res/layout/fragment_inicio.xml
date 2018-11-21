@@ -1,0 +1,89 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.myapps.delivery.Inicio">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView4" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:id="@+id/imgIImagenInicio"
+                    android:src="@drawable/delivery_banner" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Bienvenido!!!"
+                    android:textSize="30sp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:id="@+id/textView"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Nombre Usuario Logueado"
+                    android:textSize="18sp"
+                    android:textColor="#5e8d00"
+                    android:textStyle="bold|italic"
+                    android:id="@+id/txtInicioNombreUsuario"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Ha iniciado Sesión Correctamente"
+
+                    android:textSize="20sp"
+                    android:textColor="#000080"
+                    android:textStyle="bold"
+                    android:id="@+id/textView3"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:gravity="center"
+                    android:text="Somos una empresa líder en el mercado, orientada a ofrecer la mejor calidad y variedad en productos y servicios de venta, brindándole a nuestros clientes las mejores opciones de compra, contando con los establecimientos que poseen el mejor ambiente comodidad y seguridad, obteniendo de esta manera su confianza y lealtad; ofreciendo a las ciudades en las que tenemos presencia un estilo único de atención y calidad de vida a sus pobladores."
+
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:textStyle="normal"
+                    android:id="@+id/textView4"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:id="@+id/textView8" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</FrameLayout>

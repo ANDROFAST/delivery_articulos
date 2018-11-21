@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/imgItemArticuloImagen"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/lblItemArticuloNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingTop="10dp"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <LinearLayout
+            android:layout_width="157dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Precio: "
+                android:textColor="#ff0000" />
+
+            <TextView
+                android:id="@+id/lblItemArticuloPrecio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="#0000ff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="157dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stock: "
+                android:textColor="#ff0000" />
+
+            <TextView
+                android:id="@+id/lblItemArticuloStock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="#0000ff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:text="4,9"
+                    android:textStyle="italic"
+                    android:id="@+id/promedioVotos"
+                    android:layout_gravity="center_vertical" />
+
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible"
+                    android:id="@+id/estrella1"
+
+                    android:src="@drawable/ic_estrella_completa" />
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible"
+                    android:id="@+id/estrella2"
+
+                    android:src="@drawable/ic_estrella_completa" />
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible"
+                    android:id="@+id/estrella3"
+                    android:src="@drawable/ic_estrella_completa" />
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible"
+                    android:id="@+id/estrella4"
+
+                    android:src="@drawable/ic_estrella_completa" />
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_marginRight="10dp"
+                    android:visibility="invisible"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/estrella5"
+
+                    android:src="@drawable/ic_estrella_completa" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

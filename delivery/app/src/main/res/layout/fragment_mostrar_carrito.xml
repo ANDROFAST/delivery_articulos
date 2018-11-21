@@ -1,0 +1,91 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+android:layout_height="match_parent" tools:context="com.myapps.delivery.MostrarCarrito">
+
+<!-- TODO: Update blank fragment layout -->
+
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnIrProductos"
+            android:background="@mipmap/ic_atras" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Carrito"
+            android:layout_marginLeft="30dp"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textColor="#000080"
+            android:textStyle="bold"
+            android:id="@+id/tituloArticulos"
+            android:layout_gravity="center_vertical" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnDireccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:layout_margin="5dp"
+            android:textSize="14dp"
+            android:background="@drawable/estilo_boton_dark"
+            android:text="Dirección" />
+
+        <TextView
+            android:id="@+id/lblDireccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="5dp"
+            android:text=" "
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/btnRegistrarPedido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#7BD5FB"
+            android:layout_marginTop="10dp"
+            android:text="Comprar" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text=""
+            android:textSize="8dp"
+            android:id="@+id/textView2" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvSelPedidoDetalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,108 @@
+package com.google.android.gms.games.internal.player;
+
+import android.text.TextUtils;
+
+public final class PlayerColumnNames {
+    public final String name;
+    public final String title;
+    public final String zzaFI;
+    public final String zzaFJ;
+    public final String zzaFK;
+    public final String zzaFL;
+    public final String zzaFM;
+    public final String zzaFN;
+    public final String zzaFO;
+    public final String zzaFP;
+    public final String zzaFQ;
+    public final String zzaFR;
+    public final String zzaFS;
+    public final String zzaFT;
+    public final String zzaFU;
+    public final String zzaFV;
+    public final String zzaFW;
+    public final String zzaFX;
+    public final String zzaFY;
+    public final String zzaFZ;
+    public final String zzaGa;
+    public final String zzaGb;
+    public final String zzaGc;
+    public final String zzaGd;
+    public final String zzaGe;
+    public final String zzaGf;
+    public final String zzaGg;
+    public final String zzaGh;
+    public final String zzaGi;
+    public final String zzaGj;
+    public final String zzaGk;
+    public final String zzaGl;
+
+    public PlayerColumnNames(String prefix) {
+        if (TextUtils.isEmpty(prefix)) {
+            this.zzaFI = "external_player_id";
+            this.zzaFJ = "profile_name";
+            this.zzaFK = "profile_icon_image_uri";
+            this.zzaFL = "profile_icon_image_url";
+            this.zzaFM = "profile_hi_res_image_uri";
+            this.zzaFN = "profile_hi_res_image_url";
+            this.zzaFO = "last_updated";
+            this.zzaFP = "is_in_circles";
+            this.zzaFQ = "played_with_timestamp";
+            this.zzaFR = "current_xp_total";
+            this.zzaFS = "current_level";
+            this.zzaFT = "current_level_min_xp";
+            this.zzaFU = "current_level_max_xp";
+            this.zzaFV = "next_level";
+            this.zzaFW = "next_level_max_xp";
+            this.zzaFX = "last_level_up_timestamp";
+            this.title = "player_title";
+            this.zzaFY = "has_all_public_acls";
+            this.zzaFZ = "is_profile_visible";
+            this.zzaGa = "most_recent_external_game_id";
+            this.zzaGb = "most_recent_game_name";
+            this.zzaGc = "most_recent_activity_timestamp";
+            this.zzaGd = "most_recent_game_icon_uri";
+            this.zzaGe = "most_recent_game_hi_res_uri";
+            this.zzaGf = "most_recent_game_featured_uri";
+            this.zzaGg = "has_debug_access";
+            this.zzaGh = "gamer_tag";
+            this.name = "real_name";
+            this.zzaGi = "banner_image_landscape_uri";
+            this.zzaGj = "banner_image_landscape_url";
+            this.zzaGk = "banner_image_portrait_uri";
+            this.zzaGl = "banner_image_portrait_url";
+            return;
+        }
+        this.zzaFI = prefix + "external_player_id";
+        this.zzaFJ = prefix + "profile_name";
+        this.zzaFK = prefix + "profile_icon_image_uri";
+        this.zzaFL = prefix + "profile_icon_image_url";
+        this.zzaFM = prefix + "profile_hi_res_image_uri";
+        this.zzaFN = prefix + "profile_hi_res_image_url";
+        this.zzaFO = prefix + "last_updated";
+        this.zzaFP = prefix + "is_in_circles";
+        this.zzaFQ = prefix + "played_with_timestamp";
+        this.zzaFR = prefix + "current_xp_total";
+        this.zzaFS = prefix + "current_level";
+        this.zzaFT = prefix + "current_level_min_xp";
+        this.zzaFU = prefix + "current_level_max_xp";
+        this.zzaFV = prefix + "next_level";
+        this.zzaFW = prefix + "next_level_max_xp";
+        this.zzaFX = prefix + "last_level_up_timestamp";
+        this.title = prefix + "player_title";
+        this.zzaFY = prefix + "has_all_public_acls";
+        this.zzaFZ = prefix + "is_profile_visible";
+        this.zzaGa = prefix + "most_recent_external_game_id";
+        this.zzaGb = prefix + "most_recent_game_name";
+        this.zzaGc = prefix + "most_recent_activity_timestamp";
+        this.zzaGd = prefix + "most_recent_game_icon_uri";
+        this.zzaGe = prefix + "most_recent_game_hi_res_uri";
+        this.zzaGf = prefix + "most_recent_game_featured_uri";
+        this.zzaGg = prefix + "has_debug_access";
+        this.zzaGh = prefix + "gamer_tag";
+        this.name = prefix + "real_name";
+        this.zzaGi = prefix + "banner_image_landscape_uri";
+        this.zzaGj = prefix + "banner_image_landscape_url";
+        this.zzaGk = prefix + "banner_image_portrait_uri";
+        this.zzaGl = prefix + "banner_image_portrait_url";
+    }
+}

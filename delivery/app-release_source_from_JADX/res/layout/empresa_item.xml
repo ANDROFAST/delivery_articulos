@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/imgItemEmpresaImagen" android:layout_width="UNKNOWN_DATA_0x5001" android:layout_height="UNKNOWN_DATA_0x5001" android:layout_margin="10dp" android:src="@drawable/ic_launcher" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:id="@+id/lblItemEmpresaNombre" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Large Text" />
+        <TextView android:textColor="#ff0000" android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Categoria: " />
+        <TextView android:textColor="#0000ff" android:id="@+id/lblItemEmpresaCategoria" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" />
+        <TextView android:textColor="#ff0000" android:id="@+id/lblDireccion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Descripcion: " />
+        <TextView android:textColor="#0000ff" android:id="@+id/lblItemEmpresaDescripcion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" />
+    </LinearLayout>
+</LinearLayout>

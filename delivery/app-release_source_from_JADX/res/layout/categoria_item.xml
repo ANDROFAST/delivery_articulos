@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/imgItemCategoriaImagen" android:layout_width="UNKNOWN_DATA_0x5001" android:layout_height="UNKNOWN_DATA_0x5001" android:layout_margin="10dp" android:src="@drawable/ic_launcher" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:id="@+id/lblItemCategoriaNombre" android:paddingTop="40dp" android:layout_width="UNKNOWN_DATA_0xc801" android:layout_height="wrap_content" android:text="Large Text" />
+    </LinearLayout>
+</LinearLayout>

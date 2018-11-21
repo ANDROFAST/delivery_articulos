@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@+id/drawer" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="match_parent">
+    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+        <include app:id="@+id/toolbar_actionbar" app:layout_width="match_parent" app:layout_height="wrap_content" layout="@layout/toolbar_default" />
+        <FrameLayout app:id="@+id/container" app:clickable="true" app:layout_width="match_parent" app:layout_height="match_parent" />
+    </LinearLayout>
+    <com.myapps.delivery.ScrimInsetsFrameLayout app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/scrimInsetsFrameLayout" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="wrap_content" app:insetForeground="#0000">
+        <fragment app:name="com.myapps.delivery.NavigationDrawerFragment" app:id="@+id/fragment_drawer" app:fitsSystemWindows="true" app:layout_width="UNKNOWN_DATA_0x7f09002d" app:layout_height="match_parent" app:layout="@layout/fragment_navigation_drawer" />
+    </com.myapps.delivery.ScrimInsetsFrameLayout>
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="tipo_documento">
+        <item>DNI</item>
+        <item>CI</item>
+        <item>RG</item>
+        <item>CC</item>
+        <item>DI</item>
+        <item>DUI</item>
+        <item>DPI</item>
+    </array>
+</resources>

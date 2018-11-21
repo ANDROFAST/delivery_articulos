@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Delivery App</string>
+
+    <string name="drawer_open">Menu opened</string>
+    <string name="drawer_close">Menu closed</string>
+
+    <string name="action_settings">Opciones</string>
+
+    <string name="cerrar_sesion">Cerrar Sesión</string>
+    <string name="carro">Carrito</string>
+    <string name="productos">Productos</string>
+    <string name="inicio">Inicio</string>
+
+    <string name="action_search">Search</string>
+    <string name="action_filter">Filter</string>
+
+    <string name="carrito">Carrito</string>
+    <string name="logueo">Logueo</string>
+    <string name="activity_registrar">Registrar Usuario</string>
+    <string name="title_activity_seleccionar_direccion">Buscar Dirección</string>
+    <string name="title_activity_pagar_con_tarjeta">Ingresa los datos de tu tarjeta</string>
+</resources>
